@@ -1,0 +1,11 @@
+# GitHub Pages (Jekyll): qué NO se publica en https://adrianpascarella.github.io/simracerap/
+# La web son solo los .html y el .css de la raíz; el contexto de trabajo y las herramientas
+# viven en el repositorio, pero nunca se sirven (D3).
+exclude:
+  - docs/
+  - scripts/
+  - factory.json
+  - CLAUDE.md
+  - .claude/
+  - .factory/
+  - .gitignore

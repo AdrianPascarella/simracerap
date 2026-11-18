@@ -1,0 +1,19 @@
+{
+  "enabledPlugins": {
+    "factory@software-factory": true,
+    "agentic-protocol@software-factory": true
+  },
+  "extraKnownMarketplaces": {
+    "software-factory": {
+      "source": {
+        "source": "github",
+        "repo": "AdrianPascarella/software-factory"
+      },
+      "autoUpdate": true
+    }
+  },
+  "env": {
+    "CLAUDE_CODE_ENABLE_TODO_TOOLS": "1",
+    "CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS": "5"
+  }
+}

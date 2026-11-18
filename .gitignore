@@ -1,0 +1,4 @@
+# Ajustes de Claude Code de este equipo (rutas absolutas de los hermanos): nunca al repositorio
+.claude/settings.local.json
+__pycache__/
+*.pyc
